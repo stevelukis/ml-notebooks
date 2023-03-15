@@ -42,6 +42,13 @@ Alley: Type of alley access to property
        Grvl	Gravel
        Pave	Paved
        NA 	No alley access
+
+It's possible that some areas of Ames may place a higher value on alley access than others, depending on factors such as
+the availability of street parking, the presence of commercial or industrial areas nearby,
+and the overall density of the neighborhood.
+
+To gain a better understanding of how alley access may impact the value of properties in Ames, it may be helpful
+to look at historical sales data and see how properties with alley access have performed compared to those without it.
 		
 LotShape: General shape of property
 
@@ -137,7 +144,31 @@ BldgType: Type of dwelling
        Duplx	Duplex
        TwnhsE	Townhouse End Unit
        TwnhsI	Townhouse Inside Unit
-	
+
+    1Fam: Single-family Detached - This refers to a standalone residential unit that is intended for a single family.
+
+    2FmCon: Two-family Conversion; originally built as one-family dwelling -
+    This refers to a property that was originally built as a single-family dwelling but has since been converted into a two-family dwelling.
+
+    Duplx: Duplex -
+    This refers to a residential building that is divided into two separate living units, each with its own entrance.
+
+    TwnhsE: Townhouse End Unit -
+    This refers to a residential unit that shares one or more walls with adjacent units
+    but has its own entrance and is part of a row of similar units.
+
+    TwnhsI: Townhouse Inside Unit - This refers to a residential unit that shares one or more walls with adjacent units
+    and is part of a row of similar units, but does not have an exterior wall.
+
+The BldgType feature can be used to gain insights into the types of properties that are most common in the dataset and
+how they may be related to other features or to the target variable (sale price). For example, it may be the case that
+single-family detached homes are more expensive on average than townhouses or duplexes,
+which could be reflected in the sale prices of properties in the dataset.
+Understanding the relationship between the BldgType feature and other features in the dataset can help you
+to develop a more accurate machine learning model for predicting property prices.
+
+
+
 HouseStyle: Style of dwelling
 	
        1Story	One story
