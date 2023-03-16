@@ -925,7 +925,7 @@ The type of masonry veneer on a house can impact the house price due to a number
 
 ---
 
-## Kitchen: Kitchens above grade
+## KitchenAbvGr: Kitchens above grade
 
 ---
 
